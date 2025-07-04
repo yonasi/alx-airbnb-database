@@ -1,0 +1,2 @@
+# How Partitioning Improves Performance
+When you query the Booking table with a WHERE clause that filters by start_date (e.g., WHERE start_date BETWEEN '2025-01-01' AND '2025-12-31'), MySQL's optimizer can identify which specific partitions contain the relevant data. It then only scans those necessary partitions, completely ignoring the others. This significantly reduces the amount of data that needs to be read from disk and processed, leading to faster query execution times, especially for very large tables where data is spread across many partitions.
