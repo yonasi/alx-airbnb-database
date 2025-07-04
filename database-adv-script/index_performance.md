@@ -21,13 +21,13 @@ Adding indexes to frequently queried columns improved query performance of user.
 and property.name especially for searches and joins.
 
 ## Before Indexing
-![Performance before indexing](/index_performanece/before_indexing.png)
+![Performance before indexing](/index_performance/before_indexing.png)
 
 ## Indexing
-![Indexing the database](/index_performanece/indexing.png)
+![Indexing the database](/index_performance/indexing.png)
 
 ## After indexing
-![Performance after indexing](/index_performanece/after_indexing.png)
+![Performance after indexing](/index_performance/after_indexing.png)
 
 
 
